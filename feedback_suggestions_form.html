@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikilinks - Feedback & Suggestions Form</title>
+    <link rel="icon" href="wikilinks_left.png">
+    <link rel="stylesheet" href="style_size.css">
+</head>
+    <body align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">
+        
+        <a href="index.html" style="text-decoration: none"><img src="wikilinks_center.png" alt="Wikilinks" height="100px" width="300px"></a>
+        <header class="header"><b><div >|&nbsp;<a href="index.html" style="text-decoration: none;">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="about.html" target="_self" style="text-decoration: none">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contact.html" target="_self" style="text-decoration: none">Contact</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="other_links.html" target="_self" style="text-decoration: none">Other Links</a>&nbsp;|</div>
+        </b></header>
+        <marquee behavior="scroll" onmousedown="this.stop();" onmouseup="this.start();" direction="left"><img src="wikilinks_left.png" height="12" width="12" alt="">&nbsp;<font size="2px">Welcome to <strong>Wikilinks</strong></font>&nbsp;<img src="wikilinks_left.png" height="12" width="12" alt=""></marquee>
+        <main class="main">
+            <article class="main__article">
+                <b><form action="https://httpbin.org/get" class="contact__form" method="get">
+                    <p><b>Feedback & Suggestions Form:</b></p>
+                    <br>
+                        <label class="contact__label" for="name">Name:</label>
+                        <input class="contact__input" text="text" name="name" id="name" placeholder="Your Name" autocomplete="on" required autofocus>
+                    <br><br>    
+                        <label class="contact__label" for="education(pursuing/highest)">Education(Pursuing/Highest):</label>
+                            <select class="contact__input" name="education(pursuing/highest)" id="education(pursuing/highest)">
+                                <option value="select">--Select--</option>
+                                <option value="primary school">Primary School</option>
+                                <option value="secondary school">Secondary School</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="diploma"> Diploma</option>
+                                <option value="degree">Degree</option>
+                                <option value="under graduation"> Under Graduation</option>
+                                <option value="post graduation">Post Graduation</option>
+                                <option value="others">Others</option>
+                                <!--<option value="industrailists">Industrailists</option>
+                                <option value="sports">Sports</option>-->
+                            </select>
+                    <br><br>
+                        <label class="contact__label" for="emailid">E-Mail ID:</label>
+                        <input class="contact__input" type="text" name="emailid" id="emailid" placeholder="Eg.: userid@gmail.com" autocomplete="on" required>
+                    <br><br>
+                        <label class="contact__label" for="phone">Contact No.:</label>
+                        <input class="contact__input" type="tel" name="phone" id="phone" placeholder="Mobile Number" pattern="[0-9]{10}" maxlength="10" autocomplete="on" required>
+                    <br><br>
+                        <label class="contact__label" for="message">Comment or Suggest:</label>
+                        <textarea class="contact__input" name="message" id="message" cols="30" rows="10" placeholder="Type Your Message Here" required></textarea>
+                    <br><br>
+                    <button class="contact__button" type="submit">Submit</button>&nbsp;&nbsp;&nbsp;
+                    <button class="contact__button" type="reset">Reset</button>
+                    <p>Note: Enter Valid Data.</p>
+                
+                </form></b>
+            </article>
+        </main>
+        <!--<marquee behavior="scroll" direction="left"><img src="wikilinks_left.png" height="12" width="12" alt="">&nbsp;<font size="2px">Last updated on <strong><em>07/08/2022, 21:40</em></strong></font>&nbsp;<img src="wikilinks_left.png" height="12" width="12" alt=""></marquee>-->
+        
+        <a href="#" class="to-top">
+            <p><font color="yellow"><b>Top</b></font></p>
+        </a>
+        
+        <footer class="footer"><p>Copyright &copy; 2023 by <a href="index.html" style="text-decoration: none" title="Wikilinks"><b>Wikilinks</b></a>. &nbsp; All Rights Reserved.</p>
+            
+            </footer>
+            <script src="main.js"></script>
+    </body>
+</html>
