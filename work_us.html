@@ -24,7 +24,13 @@
                     <label for="dob" class="contact__label">
                         Date of Birth <font color="red">* (dd/mm/yyyy)</font></label>
                     <input class="contact__input" name="dob" type="date" maxlength="10" id="dob"  placeholder="Enter Date of Birth" required>
-                    <br><br>   
+                    <br><br>
+                        <label class="contact__label" for="aadhaar">Contact No.:</label>
+                        <input class="contact__input" type="aadhaar" name="aadhar" id="aadhaar" placeholder="XXXX XXXX XXXX" pattern="[0-9]{10}" maxlength="12" autocomplete="on" required>
+                    <br><br>
+                        <label class="contact__label" for="10marks">10th Class or Equivalent - % or CGPA:</label>
+                        <input class="contact__input" type="10marks" name="10marks" id="10marks" placeholder="Percentage or CGPA" pattern="[0-9]{10}" maxlength="2" autocomplete="off" required>
+                    <br><br>
                         <label class="contact__label" for="education(pursuing/highest)" aria-required="true">Education(Pursuing/Highest):</label>
                             <select class="contact__input" name="education(pursuing/highest)" id="education(pursuing/highest)">
                                 <option value="select">--Select--</option>
