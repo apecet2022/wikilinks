@@ -129,6 +129,8 @@ margin-top:0px;
 padding:10px;
 }
 .calc_container {
+    align-items: center;
+    align-content: center;
     background: none repeat scroll 0 0 #dadada;
     border: 1px solid #aaa;
     border-radius: 5px;
@@ -136,7 +138,7 @@ padding:10px;
     padding: 0px;
     width: 463px;
     border-bottom: 7px solid #999;
-    position:relative;
+    position:relative; 
 }
 #keyPad_Help{
    /* position: absolute!important;
@@ -160,6 +162,8 @@ padding:10px;
 
 /* KEY BUTTONS */
 #keyPad a {
+    align-items: center;
+    align-content: center;
     background: #f1f1f1;
     border-color: #aaa;
     border-image: none;
@@ -331,8 +335,11 @@ background: none repeat scroll 0 0 #e74c3c;
 #helptopDiv
 {
 	margin-bottom:5px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 	padding: 10px;
-	background-color:#4286f3;
+	background-color:#1655b4;
 	color:#ffffff;
         /* cursor: move; */
 }
